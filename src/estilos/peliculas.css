@@ -1,0 +1,31 @@
+.contenedor-pelicula img{
+    width:300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+p{
+    color:black;
+    text-align: center;
+}
+span{
+    color:teal
+}
+
+.movies{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    border: 5px solid rgb(34, 189, 54);
+    border-radius: 20px;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+    color: crimson;
+    font-size: 20px;
+}

@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'greek';
+    src: url('../fuente/Greek-Freak.ttf') format('truetype');
+}
+
+
+.info-container{
+    width: 80%;
+    border: 0px solid bisque;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    padding-top: 100px;
+    gap: 10px;
+height: 100vh;
+}
+
+
+.multi-image{
+    border-radius: 10px;
+    width: 300px
+
+}
+
+.multi-title{
+    text-align: center;
+    color: rgb(183, 66, 66);
+    font-family: greek;
+    font-size: 35px;
+}
+
+.year{
+    font-size: .7em;
+    opacity: .5;
+}
+.genre-date{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(183, 66, 66);
+    opacity: .5;
+    font-family: greek;
+}
+
+.multi-overview{
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+
+.multi-rate{
+    border-radius: 50%;
+    padding: 3px;
+    width:65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: greek;
+}
+
+.low {
+    border:6px solid red;
+}
+
+.medium {
+    border:6px solid rgb(244, 237, 14);
+}
+
+.high {
+    border:6px solid  green;
+}
+
+.percent{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.685);
+    align-self: center;
+}
+
+.rate-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    
+}
+
+.user-score{
+    color: white;
+    font-size: 25px;
+    font-family: greek;
+}
+
+.similar-movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.maybe-you-like{
+    font-family: greek;
+    color: rgb(183, 66, 66);
+    opacity: .5;
+}

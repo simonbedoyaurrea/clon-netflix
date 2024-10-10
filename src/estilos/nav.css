@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'greek';
+    src: url('../fuente/Greek-Freak.ttf') format('truetype');
+}
+.netsy{
+background-color: rgb(25, 20, 20);
+display: flex;
+justify-content: space-between;
+padding: 2px;
+box-sizing: border-box;
+width: 100%;
+color:blanchedalmond;
+align-items: center;
+position: fixed;
+z-index: 1000;
+transition :all .2s linear
+}
+
+.nombre-netsy{
+    font-size: 35px;
+    font-family: 'greek';
+    color: firebrick;
+    margin-left: 40px;
+}
+
+.logo-netsy{
+    text-decoration: none;
+    transition: all .2s linear;
+    
+}
+
+.links{
+display: flex;
+justify-content: space-between;
+
+}
+.link{
+    display: inline-block;
+    margin: 6px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    transition: all .2s linear;
+    font-size:12px
+
+}
+.link:hover{
+    
+    color: firebrick;
+}
+
+li{
+    list-style: none;
+}
+

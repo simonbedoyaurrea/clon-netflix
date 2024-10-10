@@ -1,0 +1,44 @@
+.similar-image{
+    border-radius: 20px;
+    width:92px;
+    height: 120px;
+    
+}
+
+.recommendations-container{
+    width: 600px;
+    height: 140px;
+    display: flex;
+    gap: 5px;
+    overflow-x: scroll;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.recommendations-container{ 
+    --scrollbar-width: 0px;
+     --scrollbar-height: 4px; 
+     --scrollbar-border-thickness: 0px;
+      --scrollbar-thumb-color: #9A0E0EF2; 
+      --scrollbar-track-color: #000000; } 
+
+.recommendations-container::-webkit-scrollbar { 
+    width: var(--scrollbar-width, 20px); 
+    height: var(--scrollbar-height, 20px); }
+
+.recommendations-container::-webkit-scrollbar-thumb {
+     background: var(--scrollbar-thumb-color, #3B82F6); 
+     border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255));
+      border-radius: var(--scrollbar-border-radius, 4px); 
+    }
+.recommendations-container::-webkit-scrollbar-track { 
+    background: var(--scrollbar-track-color, #A1A1AA); }
+
+    .recommendations-container::-webkit-scrollbar-corner { 
+    background: var(--scrollbar-corner-color, #FFFFFF);
+     border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255));
+      border-radius: var(--scrollbar-border-radius, 4px); 
+    }
+    .recommendations-container::-webkit-scrollbar-button:vertical:start:increment, #preview::-webkit-scrollbar-button:vertical:end:decrement, #preview::-webkit-scrollbar-button:horizontal:start:increment, #preview::-webkit-scrollbar-button:horizontal:end:decrement
+     { display: var(--show-double-buttons, none); }
